@@ -15,5 +15,13 @@
 .main__right--about--descrition {
     padding: 10px 0;
     font-size: 18px;
+    text-align: justify;
     font-family: var(--font-principal);
+    color: var(--cor-cinza-claro);
+}
+
+@media screen and (max-width: 1200px) {
+    .main__right--about {
+        max-width: 90vw;
+    }
 }

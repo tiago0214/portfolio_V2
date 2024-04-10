@@ -1,6 +1,7 @@
 @import url('./css/cabecalho.css');
 @import url('./css/main.css');
 @import url('./css/about.css');
+@import url('./css/projects.css');
 
 :root {
     --cor-destaque: rgb(103, 201, 168);

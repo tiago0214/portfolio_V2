@@ -53,9 +53,10 @@
 
 .main__left--description {
     font-size: 17px;
+    text-align: justify;
     border-left: 1px solid var(--cor-cinza-claro);
     padding: .5em;
-    width: 500px;
+    width: 35vw;
 }
 
 .main__left--social {
@@ -82,4 +83,26 @@
 
 .main__left--sub-name {
     font-size: 35px;
+}
+
+@media screen and (max-width: 1400px) {
+    .rigth__list--img {
+        max-width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .rigth__list--img {
+        display: none;
+    }
+
+    .main__left {
+        justify-content: center;
+        gap: 150px;
+    }
+
+    .main__left--description {
+        width: 90vw;
+    }
 }
