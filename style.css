@@ -1,0 +1,18 @@
+@import url('./css/cabecalho.css');
+@import url('./css/main.css');
+
+:root {
+    --cor-destaque: rgb(103, 201, 168);
+    --cor-verde-escuro: rgb(1, 23, 37);
+    --cor-cinza-claro: #c5c2c2dc;
+    --cor-branca: #fffffff1;
+    --font-principal: "Roboto";
+}
+
+body {
+    background: linear-gradient(rgb(2, 31, 53), rgb(22, 22, 22));
+    height: 100vh;
+    font-size: 16px;
+    color: var(--cor-branca);
+    font-family: var(--font-principal);
+}
