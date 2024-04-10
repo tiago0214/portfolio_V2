@@ -6,6 +6,7 @@
 
 .header {
     justify-content: space-between;
+    padding: .7vw 0;
     width: 90vw;
     margin: .5vw auto;
     align-items: center;
@@ -19,10 +20,12 @@
     align-items: center;
 }
 
-.header__logo--titulo {
+.header__icon--link {
     font-size: 1.5em;
-    padding: .4vw 3vw .4vw 3vw;
-    margin: .5vw .5vw;
+    padding: 1vw 1vw;
+    margin: 1vw 1vw;
+    color: var(--cor-branca);
+
 }
 
 .header__list {

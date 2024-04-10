@@ -1,12 +1,13 @@
 @import url('./css/cabecalho.css');
 @import url('./css/main.css');
+@import url('./css/about.css');
 
 :root {
     --cor-destaque: rgb(103, 201, 168);
     --cor-verde-escuro: rgb(1, 23, 37);
     --cor-cinza-claro: #c5c2c2dc;
     --cor-branca: #fffffff1;
-    --font-principal: "Roboto";
+    --font-principal: "Tilt Neon";
 }
 
 body {

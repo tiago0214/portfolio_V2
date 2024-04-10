@@ -1,0 +1,19 @@
+.main__left--about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main__right--about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 40%;
+}
+
+.main__right--about--descrition {
+    padding: 10px 0;
+    font-size: 18px;
+    font-family: var(--font-principal);
+}
