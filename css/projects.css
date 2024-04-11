@@ -64,7 +64,7 @@
     font-size: 30px;
     align-items: center;
     gap: 2px;
-    padding: 5px 50px;
+    margin: 5px 50px;
 }
 
 .card__link--text {
