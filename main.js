@@ -1,32 +1,18 @@
-// let projetos = [{
-//     imagem: "../assets/projects img/fokus.png",
-//     descricao: "The project consists of a productivity app developed with HTML, CSS, and JavaScript, featuring a focus timer, task list management, and task persistence using localStorage. It includes different timer modes (focus, short break, and long break), task addition, removal, and editing functionalities. The app's interface dynamically updates based on user interactions, providing a seamless experience for managing tasks and productivity.",
-//     tecnologias: [
-//         "HTML",
-//         "CSS",
-//         "JavaScript"
-//     ],
-//     sites: [
-//         "https://github.com/tiago0214/desenvolve-boticario/tree/main/Fokus-projeto",
-//         "https://fokus-one-flame.vercel.app/"
-//     ]
-// }]
-
 let projetos = [];
-
-fetch("../projetos.json")
-    .then(response => response.json())
-    .then(json => {
-        projetos = json
-        projetos.forEach(projeto => {
-            listaParaColocarOsElementos.appendChild(retornaElemento(projeto))
-        })
-    });
 
 const btnSkill = document.querySelector('#skill');
 const btnContact = document.querySelector('#contact');
 const listaParaColocarOsElementos = document.querySelector('.main__projects');
 
+fetch("../projetos.json")
+    .then(response => response.json())
+    .then(json => {
+        projetos = json
+        listaParaColocarOsElementos.innerHTML = '';
+        projetos.forEach(projeto => {
+            listaParaColocarOsElementos.appendChild(retornaElemento(projeto))
+        })
+    });
 
 btnSkill.addEventListener('mouseover', function () {
     btnSkill.style.textDecoration = "line-through";

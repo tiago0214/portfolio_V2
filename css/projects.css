@@ -71,6 +71,14 @@
     font-size: 12px;
 }
 
+.loading {
+    font-size: 50px;
+    color: var(--cor-branca);
+    text-align: center;
+    width: 90vw;
+    height: 100vh;
+}
+
 @media screen and (min-width: 380px) {
     .main__projects {
         grid-template-columns: 1fr;
