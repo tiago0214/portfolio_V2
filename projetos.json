@@ -1,0 +1,74 @@
+[
+    {
+        "imagem": "../assets/projects img/fokus.png",
+        "descricao": "The project consists of a productivity app developed with HTML, CSS, and JavaScript, featuring a focus timer, task list management, and task persistence using localStorage. It includes different timer modes (focus, short break, and long break), task addition, removal, and editing functionalities. The app's interface dynamically updates based on user interactions, providing a seamless experience for managing tasks and productivity.",
+        "tecnologias": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "sites": [
+            "https://github.com/tiago0214/desenvolve-boticario/tree/main/Fokus-projeto",
+            "https://fokus-one-flame.vercel.app/"
+        ]
+    },
+    {
+        "imagem": "../assets/projects img/alura-books.png",
+        "descricao": "This project was developed during a program between Grupo Boticário in partnership with Alura. It was designed with the concept of mobile-first, meaning everything was initially thought for mobile devices and later implementations were made to adapt to tablet and computer screens.",
+        "tecnologias": [
+            "HTML",
+            "CSS"
+        ],
+        "sites": [
+            "https://github.com/tiago0214/desenvolve-boticario/tree/main/alura-books-projeto",
+            "https://alura-books-sigma-dun.vercel.app/"
+        ]
+    },
+    {
+        "imagem": "../assets/projects img/encoding-challenge.png",
+        "descricao": "This code in Node.js decodes a message that has a number identifying every word in it. The code first reads numbers from a file, arranges them into a staircase pattern, then decodes a message based on the position of these numbers in another file, and finally writes the decoded message into a new file.",
+        "tecnologias": [
+            "NodeJS",
+            "JavaScript"
+        ],
+        "sites": [
+            "https://github.com/tiago0214/encoding-challenge"
+        ]
+    },
+    {
+        "imagem": "../assets/projects img/primeira biblioteca.png",
+        "descricao": "This code is a Node.js CLI application for processing files and extracting links from them. Here's how it works. Overall, when the CLI application is run with a file path as an argument, it reads the file, extracts links from it, validates them if specified, and prints the result to the console.",
+        "tecnologias": [
+            "NodeJS",
+            "JavaScript",
+            "Terminal"
+        ],
+        "sites": [
+            "https://github.com/tiago0214/desenvolve-boticario/tree/main/primeira-biblioteca-projeto"
+        ]
+    },
+    {
+        "imagem": "../assets/projects img/challenge-google-sheets.png",
+        "descricao": "This C# console application interacts with Google Sheets API to read data from a specific range, perform calculations based on certain conditions, and update the spreadsheet accordingly.",
+        "tecnologias": [
+            "C#",
+            ".NET",
+            "API"
+        ],
+        "sites": [
+            "https://github.com/tiago0214/challenge-google-sheets.git"
+        ]
+    },
+    {
+        "imagem": "../assets/projects img/Projects.png",
+        "descricao": "This C# code performs string file manipulation similar to HTML. It enables the manipulation of specific parts of the text, defined through the use of regular expressions, to provide different coloring according to the tag written in the text. Additionally, an interactive console interface with visual highlighting, a structured menu for creating, opening, and viewing files was implemented.",
+        "tecnologias": [
+            "C#",
+            ".NET",
+            "Terminal"
+        ],
+        "sites": [
+            "https://github.com/tiago0214/Projects/tree/main/EditorHtml"
+        ]
+    }
+]
