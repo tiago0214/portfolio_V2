@@ -99,7 +99,7 @@
 
     .main__left {
         justify-content: center;
-        gap: 150px;
+        gap: 10vw;
     }
 
     .main__left--description {
