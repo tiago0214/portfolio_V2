@@ -40,6 +40,11 @@
     color: var(--cor-branca);
 }
 
+.lista,
+.header__phone {
+    display: none;
+}
+
 
 @media screen and (max-width:450px) {
     .header {
@@ -94,7 +99,7 @@
         padding: 10px;
         width: 40vw;
         border-left: solid 8px var(--cor-branca);
-        background-color: rgba(0, 255, 255, 0.101);
+        background-color: var(--cor-verde-escuro);
         border-radius: 10px;
     }
 
