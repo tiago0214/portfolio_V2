@@ -14,16 +14,6 @@ fetch("../projetos.json")
         })
     });
 
-btnContact.addEventListener('mouseover', function () {
-    btnContact.style.textDecoration = "line-through";
-    btnContact.removeAttribute('href');
-    btnContact.style.color = "red";
-});
-btnContact.addEventListener('mouseout', () => {
-    btnContact.style.textDecoration = "none"
-    btnContact.style.color = "#fffffff1";
-});
-
 function retornaElemento(projeto) {
     const ul = document.createElement('ul');
     ul.classList.add('card');

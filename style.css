@@ -3,6 +3,7 @@
 @import url('./css/about.css');
 @import url('./css/projects.css');
 @import url('./css/skill.css');
+@import url('./css/contact.css');
 
 :root {
     --cor-destaque: rgb(103, 201, 168);
