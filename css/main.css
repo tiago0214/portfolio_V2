@@ -85,6 +85,12 @@
     font-size: 35px;
 }
 
+@media screen and (max-width: 450px) {
+    .main__left--top {
+        padding-top: .5em;
+    }
+}
+
 @media screen and (max-width: 1400px) {
     .rigth__list--img {
         max-width: 100%;

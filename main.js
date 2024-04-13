@@ -3,6 +3,19 @@ let projetos = [];
 const btnSkill = document.querySelector('#skill');
 const btnContact = document.querySelector('#contact');
 const listaParaColocarOsElementos = document.querySelector('.main__projects');
+const menu = document.getElementById('menu-link');
+const listaItens = document.getElementById('lista');
+
+menu.addEventListener('click', (event) => {
+    event.preventDefault();
+    console.log(listaItens.style.display);
+    if (listaItens.style.display === "block") {
+        listaItens.style.display = 'none';
+    } else {
+        listaItens.style.display = "block";
+    }
+})
+
 
 fetch("../projetos.json")
     .then(response => response.json())
