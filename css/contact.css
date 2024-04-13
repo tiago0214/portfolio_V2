@@ -43,6 +43,27 @@
 
 }
 
+.main__contact--imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .main__contact--img {
-    max-width: 75%;
+    max-width: 80%;
+}
+
+@media screen and (max-width: 900px) {
+    .main__contact--img {
+        display: none;
+    }
+
+    .main__contact {
+        justify-content: center;
+        gap: 25px;
+        width: 90vw;
+        align-items: center;
+    }
+
+    .main__left--description {}
 }
