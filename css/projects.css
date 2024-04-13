@@ -1,6 +1,5 @@
 .main__projects {
     width: 90vw;
-    /* height: 100vh; */
     margin: 1vw auto;
     display: grid;
     grid-template-columns: 3fr;
@@ -76,7 +75,7 @@
     color: var(--cor-branca);
     text-align: center;
     width: 90vw;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 @media screen and (min-width: 380px) {

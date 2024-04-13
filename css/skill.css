@@ -1,0 +1,31 @@
+.main__skill {
+    width: 70vw;
+    margin: 5vw auto;
+    display: flex;
+    padding: auto;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.main__skill--itens {
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    height: 160px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 100%;
+
+}
+
+.main__skill--itens:hover {
+    background-color: rgba(0, 255, 255, 0.101);
+}
+
+.item__skill--img {
+    margin: 10px auto;
+    max-width: 100%;
+}

@@ -14,17 +14,6 @@ fetch("../projetos.json")
         })
     });
 
-btnSkill.addEventListener('mouseover', function () {
-    btnSkill.style.textDecoration = "line-through";
-    btnSkill.style.color = "red";
-    btnSkill.removeAttribute('href');
-});
-btnSkill.addEventListener('mouseout', () => {
-    btnSkill.style.textDecoration = "none";
-    btnSkill.style.color = "#fffffff1";
-
-});
-
 btnContact.addEventListener('mouseover', function () {
     btnContact.style.textDecoration = "line-through";
     btnContact.removeAttribute('href');
