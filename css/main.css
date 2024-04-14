@@ -89,6 +89,14 @@
     .main__left--top {
         padding-top: .5em;
     }
+
+    .main__left {
+        max-width: 90vw;
+    }
+
+    .main__left--description {
+        max-width: 80vw;
+    }
 }
 
 @media screen and (max-width: 1400px) {
@@ -109,6 +117,6 @@
     }
 
     .main__left--description {
-        width: 90vw;
+        width: 80vw;
     }
 }
