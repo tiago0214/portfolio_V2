@@ -8,7 +8,6 @@ const listaItens = document.getElementById('lista');
 
 menu.addEventListener('click', (event) => {
     event.preventDefault();
-    console.log(listaItens.style.display);
     if (listaItens.style.display === "block") {
         listaItens.style.display = 'none';
     } else {
