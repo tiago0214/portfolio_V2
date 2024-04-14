@@ -16,6 +16,7 @@
     justify-content: space-between;
     text-align: center;
     border-radius: 5px;
+    gap: 20px;
 }
 
 .card:hover {
@@ -91,35 +92,34 @@
         grid-template-columns: 1fr;
         gap: 20px;
         justify-content: center;
+        /* padding: 1em; */
 
     }
 
     .card {
-
-        margin: 0;
+        /* margin: 0; */
         justify-content: center;
         text-align: center;
-        padding: 0;
+        max-width: 90vw;
         gap: 20px;
     }
 
     .card__links {
         gap: 20px;
         margin: .5em;
-    }
-
-    .card--img {
         max-width: 90%;
     }
 
     .card__links--link {
-        margin: 0;
-
+        margin: 10px;
     }
 
+    .card--img {
+        max-width: 100%;
+    }
 }
 
-@media screen and (min-width: 928px) {
+@media screen and (min-width: 815px) {
     .main__projects {
         grid-template-columns: 1fr 1fr;
     }
