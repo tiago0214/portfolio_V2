@@ -86,7 +86,7 @@
     width: 90vw;
 }
 
-@media screen and (max-width: 392px) {
+@media screen and (max-width: 450px) {
     .main__projects {
         width: 90vw;
         grid-template-columns: 1fr;
