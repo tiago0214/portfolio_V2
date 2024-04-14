@@ -53,6 +53,44 @@
     max-width: 80%;
 }
 
+.img__email {
+    background-image: url('../assets/icons8-email-30.png');
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img__phone {
+    background-image: url('../assets/icons8-phone-30.png');
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img__linkedin {
+    background-image: url('../assets/icons8-linkedin-30.png');
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img__github {
+    background-image: url('../assets/icons8-github-30.png');
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (max-width: 450px) {
+    .main__contact--item {
+        width: 70vw;
+    }
+
+    path {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 900px) {
     .main__contact--img {
         display: none;
