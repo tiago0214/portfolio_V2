@@ -85,10 +85,6 @@
     .main__contact--item {
         width: 70vw;
     }
-
-    path {
-        display: none;
-    }
 }
 
 @media screen and (max-width: 900px) {
