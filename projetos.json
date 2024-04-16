@@ -1,19 +1,5 @@
 [
     {
-        "imagem": "../assets/projects-img/alura-play.png",
-        "descricao": "This code defines functions to interact with a mock API for managing videos. It includes functions to list videos, create new videos, and search for videos based on a term. Additionally, there are functions to display videos on a webpage and handle video creation through a form submission.",
-        "tecnologias": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "NodeJs"
-        ],
-        "sites": [
-            "https://github.com/tiago0214/alura-play",
-            "https://alura-play-sage-delta.vercel.app/"
-        ]
-    },
-    {
         "imagem": "../assets/projects-img/fokus.png",
         "descricao": "The project consists of a productivity app developed with HTML, CSS, and JavaScript, featuring a focus timer, task list management, and task persistence using localStorage. It includes different timer modes (focus, short break, and long break), task addition, removal, and editing functionalities. The app's interface dynamically updates based on user interactions, providing a seamless experience for managing tasks and productivity.",
         "tecnologias": [
@@ -36,6 +22,20 @@
         "sites": [
             "https://github.com/tiago0214/desenvolve-boticario/tree/main/alura-books-projeto",
             "https://alura-books-sigma-dun.vercel.app/"
+        ]
+    },
+    {
+        "imagem": "../assets/projects-img/alura-play.png",
+        "descricao": "This code defines functions to interact with a mock API for managing videos. It includes functions to list videos, create new videos, and search for videos based on a term. Additionally, there are functions to display videos on a webpage and handle video creation through a form submission.",
+        "tecnologias": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "NodeJs"
+        ],
+        "sites": [
+            "https://github.com/tiago0214/alura-play",
+            "https://alura-play-sage-delta.vercel.app/"
         ]
     },
     {
