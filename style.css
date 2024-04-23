@@ -14,7 +14,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgb(2, 31, 53), rgb(22, 22, 22));
+    background-image: linear-gradient(rgb(4, 54, 93), rgb(22, 22, 22));
     min-height: 100vh;
     font-size: 16px;
     color: var(--cor-branca);
