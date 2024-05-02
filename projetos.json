@@ -13,6 +13,19 @@
         ]
     },
     {
+        "imagem": "../assets/projects-img/bank.png",
+        "descricao": "This project consists of an interface for creating an account, utilizing JavaScript to verify the form fields, thereby preventing users from inputting random information into any field. The project also utilizes local storage to securely store information.",
+        "tecnologias": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "sites": [
+            "https://github.com/tiago0214/desenvolve-boticario/tree/main/bank",
+            "https://bank-iota-wine.vercel.app"
+        ]
+    },
+    {
         "imagem": "../assets/projects-img/fokus.png",
         "descricao": "The project consists of a productivity app developed with HTML, CSS, and JavaScript, featuring a focus timer, task list management, and task persistence using localStorage. It includes different timer modes (focus, short break, and long break), task addition, removal, and editing functionalities. The app's interface dynamically updates based on user interactions, providing a seamless experience for managing tasks and productivity.",
         "tecnologias": [
