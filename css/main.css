@@ -24,6 +24,7 @@
     flex-direction: column;
     /* justify-content: space-between; */
     justify-content: center;
+    width: 80vh;
 
 }
 
@@ -35,14 +36,15 @@
 }
 
 .main__right--list {
-    max-width: 40vh;
-    margin-right: 15vw;
+    max-width: 80vh;
+    margin: auto;
 }
 
 .rigth__list--img--principal {
     width: 100%;
-    box-shadow: inset 0 0 20px rgba(0, 255, 255, 0.836);
-    border-radius: 10%;
+    /* box-shadow: inset -11px 0px 4px -4px rgba(0, 255, 255, 0.39); */
+    /* box-shadow: inset 0 0 20px rgba(0, 255, 255, 0.836); */
+    /* border-radius: 5%; */
     /* border-radius: 50%; */
 }
 
