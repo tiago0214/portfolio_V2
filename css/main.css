@@ -35,14 +35,15 @@
 }
 
 .main__right--list {
-    max-width: 30vh;
+    max-width: 40vh;
     margin-right: 15vw;
 }
 
 .rigth__list--img--principal {
     width: 100%;
-    box-shadow: 0 0 20px rgba(0, 255, 255, 0.836);
-    border-radius: 50%;
+    box-shadow: inset 0 0 20px rgba(0, 255, 255, 0.836);
+    border-radius: 10%;
+    /* border-radius: 50%; */
 }
 
 .rigth__list--img {
