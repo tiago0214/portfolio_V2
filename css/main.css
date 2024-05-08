@@ -21,11 +21,8 @@
 
 .main__right {
     display: flex;
-    flex-direction: column;
-    /* justify-content: space-between; */
-    /* justify-content: center; */
+    flex-direction: row;
     justify-content: flex-end;
-
     width: 90vh;
 
 }
@@ -39,7 +36,7 @@
 
 .main__right--list {
     max-width: 70vh;
-    margin: auto;
+    margin: auto 0;
 }
 
 .rigth__list--img--principal {
