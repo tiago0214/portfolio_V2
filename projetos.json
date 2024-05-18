@@ -1,5 +1,20 @@
 [
     {
+        "imagem": "../assets/projects-img/beauty.png",
+        "descricao": "This project is a web page for a beauty company. Features such as add to bag, user registration, login, buy now were implemented to give a real experience of buying on the platform. The Add to Bag feature stores data in local storage to prevent the user from losing their products if something happens to their internet connection. I implemented a web server in Node.js to store data from users and the products.",
+        "tecnologias": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "NodeJS",
+            "MongoDB"
+        ],
+        "sites": [
+            "https://github.com/tiago0214/beauty-project",
+            "https://beauty-project-two.vercel.app/"
+        ]
+    },
+    {
         "imagem": "../assets/projects-img/portfolio.png",
         "descricao": "This is my personal webpage. The JavaScript code in this page, fetches data from a JSON file containing project information, then dynamically generates HTML elements to display each project's image, description, technologies used, and links to their GitHub repositories and deployment.",
         "tecnologias": [
@@ -48,19 +63,6 @@
         "sites": [
             "https://github.com/tiago0214/desenvolve-boticario/tree/main/alura-books-projeto",
             "https://alura-books-sigma-dun.vercel.app/"
-        ]
-    },
-    {
-        "imagem": "../assets/projects-img/beauty.png",
-        "descricao": "This is a simple webpage using HTML, CSS, and JavaScript for a project to develop an interactive website for a beauty company.",
-        "tecnologias": [
-            "HTML",
-            "CSS",
-            "JavaScript"
-        ],
-        "sites": [
-            "https://github.com/tiago0214/beauty-project",
-            "https://beauty-project-two.vercel.app/"
         ]
     },
     {
