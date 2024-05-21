@@ -1,13 +1,11 @@
 [
     {
         "imagem": "../assets/projects-img/beauty.png",
-        "descricao": "This project is a web page for a beauty company. Features such as add to bag, user registration, login, buy now were implemented to give a real experience of buying on the platform. The Add to Bag feature stores data in local storage to prevent the user from losing their products if something happens to their internet connection. I implemented a web server in Node.js to store data from users and the products.",
+        "descricao": "This project is a web page for a beauty company. Features such as add to bag, favorite were implemented to give a real experience of saving products on the platform.Those features store data in local storage to prevent the user from losing their products if something happens. When something is added to a bag or favorite, it shows a popup to make it easier for the user to know what's happening. I implemented a carousel to show the products on the home page, to give a better experience.",
         "tecnologias": [
             "HTML",
             "CSS",
-            "JavaScript",
-            "NodeJS",
-            "MongoDB"
+            "JavaScript"
         ],
         "sites": [
             "https://github.com/tiago0214/beauty-project",
