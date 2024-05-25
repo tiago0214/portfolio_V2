@@ -26,6 +26,18 @@
         ]
     },
     {
+        "imagem": "../assets/projects-img/primeira biblioteca.png",
+        "descricao": "A RESTful API in Node.js that offers core web functionalities. It follows the Model-View-Controller (MVC) architecture, ensuring a clear separation of concerns and modularity. The Express framework is used to manage routing, providing a robust foundation for handling HTTP requests and responses. To persist data, everything was implemented using MongoDB as a database.",
+        "tecnologias": [
+            "NodeJS",
+            "Express",
+            "MongoDB"
+        ],
+        "sites": [
+            "https://github.com/tiago0214/desenvolve-boticario/tree/main/api-rest-express-mongodb/"
+        ]
+    },
+    {
         "imagem": "../assets/projects-img/bank.png",
         "descricao": "This project consists of an interface for creating an account, utilizing JavaScript to verify the form fields, thereby preventing users from inputting random information into any field. The project also utilizes local storage to securely store information.",
         "tecnologias": [
