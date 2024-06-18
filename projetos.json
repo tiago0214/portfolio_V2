@@ -27,6 +27,21 @@
     },
     {
         "imagem": "../assets/projects-img/primeira biblioteca.png",
+        "descricao": "This API provides a comprehensive solution for managing users, roles, permissions, products, and security within an application. It includes endpoints for user authentication, CRUD operations for users, roles, permissions, and products, and advanced security features such as role-based access control and permissions management. Built with Node.js and Express, it utilizes JWT for secure authentication and authorization.",
+        "tecnologias": [
+            "NodeJS",
+            "Express",
+            "Postgress",
+            "Sequelize",
+            "JWT"
+        ],
+        "sites": [
+            "https://github.com/tiago0214/projects-desenvolve-boticario/tree/main/nodeJS-apiRest-com-autenticacao-de-usuario"
+        ]
+    }
+    ,
+    {
+        "imagem": "../assets/projects-img/primeira biblioteca.png",
         "descricao": "A RESTful API in Node.js that offers core web functionalities. It follows the Model-View-Controller (MVC) architecture, ensuring a clear separation of concerns and modularity. The Express framework is used to manage routing, providing a robust foundation for handling HTTP requests and responses. To persist data, everything was implemented using MongoDB as a database.",
         "tecnologias": [
             "NodeJS",
