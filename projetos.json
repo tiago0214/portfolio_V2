@@ -32,8 +32,7 @@
             "NodeJS",
             "Express",
             "Postgress",
-            "Sequelize",
-            "JWT"
+            "Sequelize"
         ],
         "sites": [
             "https://github.com/tiago0214/projects-desenvolve-boticario/tree/main/nodeJS-apiRest-com-autenticacao-de-usuario"
