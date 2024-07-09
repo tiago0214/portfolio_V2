@@ -3,13 +3,14 @@
         "imagem": "../assets/projects-img/beauty.png",
         "descricao": "This project is a web page for a beauty company. Features such as add to bag, favorite were implemented to give a real experience of saving products on the platform.Those features store data in local storage to prevent the user from losing their products if something happens. When something is added to a bag or favorite, it shows a popup to make it easier for the user to know what's happening. I implemented a carousel to show the products on the home page, to give a better experience.",
         "tecnologias": [
-            "HTML",
-            "CSS",
-            "JavaScript"
+            "JavaScript",
+            "NodeJS",
+            "MongoDB",
+            "Express"
         ],
         "sites": [
-            "https://github.com/tiago0214/beauty-project",
-            "https://beauty-project-two.vercel.app/"
+            "https://github.com/tiago0214/beauty-company-project",
+            "https://beauty-company-project.vercel.app/"
         ]
     },
     {
