@@ -48,17 +48,5 @@
         "sites": [
             "https://github.com/tiago0214/challenge-google-sheets.git"
         ]
-    },
-    {
-        "imagem": "../assets/projects-img/Projects.png",
-        "descricao": "This C# code performs string file manipulation similar to HTML. It enables the manipulation of specific parts of the text, defined through the use of regular expressions, to provide different coloring according to the tag written in the text. Additionally, an interactive console interface with visual highlighting, a structured menu for creating, opening, and viewing files was implemented.",
-        "tecnologias": [
-            "C#",
-            ".NET",
-            "Terminal"
-        ],
-        "sites": [
-            "https://github.com/tiago0214/Projects/tree/main/EditorHtml"
-        ]
     }
 ]
