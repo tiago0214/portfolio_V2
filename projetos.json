@@ -27,84 +27,6 @@
         ]
     },
     {
-        "imagem": "../assets/projects-img/primeira biblioteca.png",
-        "descricao": "This API provides a comprehensive solution for managing users, roles, permissions, products, and security within an application. It includes endpoints for user authentication, CRUD operations for users, roles, permissions, and products, and advanced security features such as role-based access control and permissions management. Built with Node.js and Express, it utilizes JWT for secure authentication and authorization.",
-        "tecnologias": [
-            "NodeJS",
-            "Express",
-            "Postgress",
-            "Sequelize"
-        ],
-        "sites": [
-            "https://github.com/tiago0214/projects-desenvolve-boticario/tree/main/nodeJS-apiRest-com-autenticacao-de-usuario"
-        ]
-    }
-    ,
-    {
-        "imagem": "../assets/projects-img/primeira biblioteca.png",
-        "descricao": "A RESTful API in Node.js that offers core web functionalities. It follows the Model-View-Controller (MVC) architecture, ensuring a clear separation of concerns and modularity. The Express framework is used to manage routing, providing a robust foundation for handling HTTP requests and responses. To persist data, everything was implemented using MongoDB as a database.",
-        "tecnologias": [
-            "NodeJS",
-            "Express",
-            "MongoDB"
-        ],
-        "sites": [
-            "https://github.com/tiago0214/desenvolve-boticario/tree/main/api-rest-express-mongodb/"
-        ]
-    },
-    {
-        "imagem": "../assets/projects-img/bank.png",
-        "descricao": "This project consists of an interface for creating an account, utilizing JavaScript to verify the form fields, thereby preventing users from inputting random information into any field. The project also utilizes local storage to securely store information.",
-        "tecnologias": [
-            "HTML",
-            "CSS",
-            "JavaScript"
-        ],
-        "sites": [
-            "https://github.com/tiago0214/desenvolve-boticario/tree/main/bank",
-            "https://bank-iota-wine.vercel.app"
-        ]
-    },
-    {
-        "imagem": "../assets/projects-img/fokus.png",
-        "descricao": "The project consists of a productivity app developed with HTML, CSS, and JavaScript, featuring a focus timer, task list management, and task persistence using localStorage. It includes different timer modes (focus, short break, and long break), task addition, removal, and editing functionalities. The app's interface dynamically updates based on user interactions, providing a seamless experience for managing tasks and productivity.",
-        "tecnologias": [
-            "HTML",
-            "CSS",
-            "JavaScript"
-        ],
-        "sites": [
-            "https://github.com/tiago0214/desenvolve-boticario/tree/main/Fokus-projeto",
-            "https://fokus-one-flame.vercel.app/"
-        ]
-    },
-    {
-        "imagem": "../assets/projects-img/alura-books.png",
-        "descricao": "This project is designed with the concept of mobile-first, meaning everything was initially thought for mobile devices and later implementations were made to adapt to tablet and computer screens.",
-        "tecnologias": [
-            "HTML",
-            "CSS"
-        ],
-        "sites": [
-            "https://github.com/tiago0214/desenvolve-boticario/tree/main/alura-books-projeto",
-            "https://alura-books-sigma-dun.vercel.app/"
-        ]
-    },
-    {
-        "imagem": "../assets/projects-img/alura-play.png",
-        "descricao": "This code defines functions to interact with a mock API for managing videos. It includes functions to list videos, create new videos, and search for videos based on a term. Additionally, there are functions to display videos on a webpage and handle video creation through a form submission.",
-        "tecnologias": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "NodeJs"
-        ],
-        "sites": [
-            "https://github.com/tiago0214/alura-play",
-            "https://alura-play-sage-delta.vercel.app/"
-        ]
-    },
-    {
         "imagem": "../assets/projects-img/encoding-challenge.png",
         "descricao": "This code in Node.js decodes a message that has a number identifying every word in it. The code first reads numbers from a file, arranges them into a staircase pattern, then decodes a message based on the position of these numbers in another file, and finally writes the decoded message into a new file.",
         "tecnologias": [
@@ -113,18 +35,6 @@
         ],
         "sites": [
             "https://github.com/tiago0214/encoding-challenge"
-        ]
-    },
-    {
-        "imagem": "../assets/projects-img/primeira biblioteca.png",
-        "descricao": "This code is a Node.js CLI application for processing files and extracting links from them. Here's how it works. Overall, when the CLI application is run with a file path as an argument, it reads the file, extracts links from it, validates them if specified, and prints the result to the console.",
-        "tecnologias": [
-            "NodeJS",
-            "JavaScript",
-            "Terminal"
-        ],
-        "sites": [
-            "https://github.com/tiago0214/desenvolve-boticario/tree/main/primeira-biblioteca-projeto"
         ]
     },
     {
