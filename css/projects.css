@@ -1,8 +1,24 @@
 .main__projects {
     width: 90vw;
-    margin: 1vw auto;
+    margin: 10vw auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.title__section{
+    font-size: 40px;
+}
+
+.main__projects--page {
+    width: 90vw;
+    margin: .5vw auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__projects--hook{
     display: grid;
-    grid-template-columns: 3fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .card {
@@ -88,7 +104,7 @@
 }
 
 @media screen and (max-width: 450px) {
-    .main__projects {
+    .main__projects--hook {
         width: 90vw;
         grid-template-columns: 1fr;
         gap: 20px;
@@ -121,20 +137,20 @@
 }
 
 @media screen and (min-width: 815px) {
-    .main__projects {
+    .main__projects--hook {
         grid-template-columns: 1fr 1fr;
     }
 
 }
 
 @media screen and (min-width: 1300px) {
-    .main__projects {
+    .main__projects--hook {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
 @media screen and (min-width: 1800px) {
-    .main__projects {
+    .main__projects--hook {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }

@@ -2,7 +2,7 @@ let projetos = [];
 
 const btnSkill = document.querySelector('#skill');
 const btnContact = document.querySelector('#contact');
-const listaParaColocarOsElementos = document.querySelector('.main__projects');
+const listaParaColocarOsElementos = document.querySelector('.main__projects--hook');
 const menu = document.getElementById('menu-link');
 const listaItens = document.getElementById('lista');
 
