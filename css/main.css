@@ -85,7 +85,7 @@
 .main__social--link--cv {
     text-decoration: none;
     color: var(--cor-branco);
-    padding: .6vw 2vw .6vw 2vw;
+    padding: .5rem 5rem .5rem 5rem;
     border-radius: 5px;
     border: solid 2px var(--cor-branco);
 
