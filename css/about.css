@@ -16,9 +16,9 @@
     padding: 10px 0;
     font-size: 18px;
     text-align: justify;
-    font-family: "Roboto";
+    font-family: "Red Hat Display";
     line-height: 1.2;
-    font-weight: 100;
+    /* font-weight: 100; */
     color: var(--cor-cinza-claro);
 }
 
