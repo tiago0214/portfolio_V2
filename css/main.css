@@ -96,7 +96,8 @@
 }
 
 .main__social--link--cv:hover {
-    box-shadow: 0 0 10px rgba(0, 255, 255, 0.279);
+    background-color: rgba(0, 255, 255, 0.279);
+    transition: background-color 1s;
 }
 
 .main__social--link {
