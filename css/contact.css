@@ -81,7 +81,7 @@
     background-position: center;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
     .main__contact--item {
         width: 70vw;
     }

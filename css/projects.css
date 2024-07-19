@@ -19,6 +19,7 @@
 .main__projects--hook{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    
 }
 
 .card {
@@ -107,7 +108,7 @@
     width: 90vw;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
     .main__projects--hook {
         width: 90vw;
         grid-template-columns: 1fr;
@@ -140,6 +141,14 @@
         max-width: 100%;
     }
 }
+@media screen and (max-width: 814px) {
+    .main__projects--hook {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
 
 @media screen and (min-width: 815px) {
     .main__projects--hook {
